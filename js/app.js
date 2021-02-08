@@ -3,7 +3,7 @@ let UserName = prompt('what is your name ?');
 
 
 let userInput = prompt('Do you think I like pasta ?');
-console.log(userInput.toLowerCase());
+//console.log(userInput.toLowerCase());
  userInput = userInput.toLowerCase();
 if (userInput ==='yes' || userInput ==='y'){
 alert('correct')
@@ -13,7 +13,7 @@ alert('correct')
 
 
 let userinput = prompt('do you think I like Jawaker game ?');
-console.log(userinput.toLowerCase());
+//console.log(userinput.toLowerCase());
  userinput = userinput.toLowerCase();
 if (userinput ==='yes' || userinput ==='y'){
 alert('correct')
@@ -23,7 +23,7 @@ alert('correct')
 
 
 let myFav = prompt('do you think I like PUBG game ?');
-console.log(myFav.toLowerCase());
+//console.log(myFav.toLowerCase());
  myFav = myFav.toLowerCase();
 if (myFav ==='yes' || myFav ==='y'){
 alert('incorrect')
@@ -32,7 +32,7 @@ alert('incorrect')
 }
 
 let myfav = prompt('do you think I LOVE SHOPPING ?');
-console.log(myfav.toLowerCase());
+//console.log(myfav.toLowerCase());
  myfav = myfav.toLowerCase();
 if (myfav ==='yes' || myfav ==='y'){
 alert('correct')
@@ -41,7 +41,7 @@ alert('correct')
 }
 
 let myuser = prompt('do you think my favourite color is black  ?');
-console.log(myuser.toLowerCase());
+//console.log(myuser.toLowerCase());
  myuser = myuser.toLowerCase();
 if (myuser ==='yes' || myuser ==='y'){
 alert('correct')
