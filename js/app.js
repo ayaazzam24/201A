@@ -12,12 +12,12 @@ alert('correct')
 }
 
 
-let userinput = prompt('do you think I like Jawaker game ?');
-//console.log(userinput.toLowerCase());
- userinput = userinput.toLowerCase();
-if (userinput ==='yes' || userinput ==='y'){
+let userLike = prompt('do you think I like Jawaker game ?');
+//console.log(userLike.toLowerCase());
+ userLike = userLike.toLowerCase();
+if (userLike ==='yes' || userLike ==='y'){
 alert('correct')
-} else if(userinput ==='no' || userinput ==='n'){
+} else if(userLike ==='no' || userLike ==='n'){
   alert('incorrect ')
 }
 
@@ -31,21 +31,21 @@ alert('incorrect')
   alert('correct ')
 }
 
-let myfav = prompt('do you think I LOVE SHOPPING ?');
-//console.log(myfav.toLowerCase());
- myfav = myfav.toLowerCase();
-if (myfav ==='yes' || myfav ==='y'){
+let yourUser = prompt('do you think I LOVE SHOPPING ?');
+//console.log(yourUser.toLowerCase());
+ yourUser = yourUser.toLowerCase();
+if (yourUser ==='yes' || yourUser ==='y'){
 alert('correct')
-} else if(myfav ==='no' || myfav ==='n'){
+} else if(yourUser ==='no' || yourUser ==='n'){
   alert('incorrect ')
 }
 
-let myuser = prompt('do you think my favourite color is black  ?');
-//console.log(myuser.toLowerCase());
- myuser = myuser.toLowerCase();
-if (myuser ==='yes' || myuser ==='y'){
+let myUser = prompt('do you think my favourite color is black  ?');
+//console.log(myUser.toLowerCase());
+ myUser = myUser.toLowerCase();
+if (myUser ==='yes' || myUser ==='y'){
 alert('correct')
-} else if(myuser ==='no' || myuser ==='n'){
+} else if(myUser ==='no' || myUser ==='n'){
   alert('incorrect ')
 }
 
