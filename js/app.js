@@ -49,14 +49,6 @@ alert('correct')
   alert('incorrect ')
 }
 
-let myUser = prompt('do you think i like study  ?');
-console.log(myUser.toLowerCase());
- myUser = myUser.toLowerCase();
-if (myUser ==='yes' || myUser ==='y'){
-alert('incorrect')
-} else if(myUser ==='no' || myUser ==='n'){
-  alert('correct ')
-}
 
 alert ('welcome' + UserName)
 
