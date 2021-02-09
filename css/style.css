@@ -6,3 +6,7 @@ h1 {
 p {
     font-family: Tahoma, Verdana, sans-serif;
 }
+ #img1 {
+    width: 300px;
+    height: 250px;
+}
