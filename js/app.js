@@ -13,7 +13,7 @@ function Correct(){
   if (userInput.toLowerCase() ==='yes' || userInput.toLowerCase() ==='y'){
 score ++;
 alert('correct');
-} else if(userInput ==='no' || userInput ==='n'){
+} else if(userInput.toLowerCase() ==='no' || userInput.toLowerCase() ==='n'){
   alert('incorrect ');
 
 }
@@ -30,7 +30,7 @@ function favGame(){
 if (userLike.toLowerCase() ==='yes' || userLike.toLowerCase() ==='y'){
 score ++;
 alert('correct')
-} else if(userLike ==='no' || userLike ==='n'){
+} else if(userLike.toLowerCase() ==='no' || userLike.toLowerCase() ==='n'){
   alert('incorrect ');
    
 }
@@ -47,7 +47,7 @@ function pubgGame (){
 if (myFav.toLowerCase() ==='yes' || myFav.toLowerCase() ==='y'){
 score++;
 alert('incorrect')
-} else if(myFav ==='no' || myFav ==='n'){
+} else if(myFav.toLocaleLowerCase() ==='no' || myFav.toLocaleLowerCase() ==='n'){
   alert('correct ')
 }
 
@@ -62,7 +62,7 @@ function luvShopping(){
 if (yourUser.toLowerCase() ==='yes' || yourUser.toLowerCase() ==='y'){
 score++;
 alert('correct')
-} else if(yourUser ==='no' || yourUser ==='n'){
+} else if(yourUser.toLocaleLowerCase() ==='no' || yourUser.toLocaleLowerCase() ==='n'){
   alert('incorrect ')
 }
 }
@@ -76,7 +76,7 @@ function favColor(){
 if (myUser.toLowerCase() ==='yes' || myUser.toLowerCase() ==='y'){
 score ++;
 alert('correct')
-} else if(myUser ==='no' || myUser ==='n'){
+} else if(myUser.toLocaleLowerCase() ==='no' || myUser.toLocaleLowerCase() ==='n'){
   alert('incorrect ')
 }
 }
